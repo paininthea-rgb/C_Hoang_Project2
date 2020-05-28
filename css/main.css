@@ -1,5 +1,50 @@
-body {
-        background-color: #efefef;
-        display: flex;
-        justify-content: center;
-      }
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+#mainNav
+{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#mainNav ul
+{
+	width: 300px;
+	background-color: #367eb0;
+	color: white;
+}
+#mainNav ul li
+{
+	padding: 15px;
+	border-bottom: 3px solid #1065a1;
+	border-top: 3px solid #4889b7;
+}
+
+#mainNav ul li:first-child
+{
+	border-top: none;
+}
+
+#mainNav ul li:last-child
+{
+	border-bottom: none;
+}
+
+#gameInfo
+{
+	margin-top: 50px;
+	margin-left: 20px;
+}
+
+#gameInfo ul
+{
+	width: 600px;
+}
+
+#gameInfo ul li:nth-child(odd)
+{
+	background-color: #efefef;
+}
